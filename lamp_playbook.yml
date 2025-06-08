@@ -1,9 +1,0 @@
-- name: LAMP Stack deployment
-  hosts: webserver
-  become: yes
-
-  roles:
-    - apache
-    - mariadb
-    - php
-    - web_app
