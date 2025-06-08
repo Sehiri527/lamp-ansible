@@ -1,0 +1,10 @@
+- name: Deploy sample index.php
+  copy:
+    dest: /var/www/html/index.php
+    content: |
+      <?php
+      phpinfo();
+      ?>
+    owner: apache
+    group: apache
+    mode: '0644'
