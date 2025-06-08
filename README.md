@@ -1,11 +1,12 @@
 🎯 Objective
 
 
-**Objective:**  
-Design and simulate a secure hotel network infrastructure.
+**🎯 Objective:**  
+The objective of this project is to create an automated, repeatable, and modular deployment of a LAMP stack (Linux, Apache, MariaDB, PHP) on CentOS Stream 9 using Ansible.This project simulates how Infrastructure as Code (IaC) can be used to provision a web application server in a reliable and efficient way.It demonstrates key DevOps principles.
 
 **Key Features:**
-- VLAN segmentation for guest, admin, and services traffic
-- OSPF dynamic routing between internal subnets
-- DHCP server configuration for IP management
-- SSH implementation for secure remote device access
+- Automated configuration management
+- Reproducible server deployments
+- Modular role-based playbook structure
+- Self-documenting codebase
+
